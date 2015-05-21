@@ -20,7 +20,7 @@ if(!$_SESSION['user'])
 		exit();
 
 }
-set_time_limit(300);
+set_time_limit(250);
 $logid = $_SESSION['user'];
 include 'config/config.php';
 
